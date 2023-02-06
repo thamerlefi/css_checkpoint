@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>thamer lefi CSS CHECKPOINT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!----------------------------- NAV BARR ------------------------------------------------------>
+    <header>
+        
+        <nav>
+            <h3 id="logo">PORTFOLIO</h3>
+            <ul class="menu">
+                <li><a href="#logo">home</a></li>
+                <li><a href="#ABOUT">about</a></li>
+                <li><a href="#WORK">work</a></li>
+                <li><a href="#RESUME">resume</a></li>
+                <li><a href="#CONTACT">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------------------- HOME ----------------------------------------------->
+
+    <div class="main">
+            <section class="home">
+                <div class="acc">
+                    <a name="#"><h4>HELLO I'm THAMER</h4></a>
+                    <h1>Full Stack JS Devolopper</h1>
+                    <h5>I Build life changing courses</h5>
+                    <a href="#WORK" class="btn">View My Work</a>
+                </div>
+                <img src="/img/me.jpg" alt="my phto" >
+            </section>
+        
+        <!-------------------------------- ABOUT --------------------------------------------->
+        
+        <section class="about">
+            <a name="ABOUT" class="title"><h1><i>ABOUT ME</i></h1></a>
+            <h3>skills</h3>
+            <div class="prog">
+                <label for="file">HTML:</label>
+                <progress id="file" value="85" max="100"> 85% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">C S S :</label>
+                <progress id="file" value="75" max="100"> 75% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">java sc:</label>
+                <progress id="file" value="45" max="100"> 45% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">react js:</label>
+                <progress id="file" value="35" max="100"> 35% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">node js:</label>
+                <progress id="file" value="25" max="100"> 25% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">mongo db:</label>
+                <progress id="file" value="45" max="100"> 45% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">english:</label>
+                <progress id="file" value="45" max="100"> 45% </progress>
+            </div>
+            <div class="prog">
+                <label for="file">french:</label>
+                <progress id="file" value="65" max="100"> 65% </progress>
+            </div>
+        </section>
+
+        <!-------------------------------- WORK ------------------------------------------------->
+        <section class="work">
+            <a name="WORK" class="title"><h1><i>MY WORK</i></h1></a>
+            <div class="listw">
+                <img src="img/1.png" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.webp" alt="">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="listw">
+                <img src="img/5.png" alt="">
+                <img src="img/6.jpg" alt="">
+                <img src="img/7.jpg" alt="">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </section>
+
+        <!---------------------------------- RESUME --------------------------------------------->
+        <section class="resume">
+            <a name="RESUME" class="title"><h1>RESUME</h1></a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis magni, eveniet impedit nesciunt,
+                atque non laborum voluptatem, ipsam fuga vero commodi doloremque reprehenderit tempore laudantium 
+                incidunt iste voluptatum voluptates dicta!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora aut aliquam qui earum tempore 
+                repudiandae placeat neque quasi, nostrum doloremque ipsum. Blanditiis, facilis magni! Quasi delectus 
+                omnis illo provident neque?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quam doloribus placeat ipsum sint totam 
+                sunt, voluptates, saepe pariatur aliquid fugiat exercitationem, quia veritatis molestias quidem ducimus 
+                consequuntur necessitatibus accusantium!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem maiores nulla! Ex, animi culpa, 
+                hic illo dolore dignissimos assumenda sint odit, at quibusdam quasi autem. Alias dolorum praesentium aut?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi aliquam veniam quas magni quo doloribus
+                ad deleniti? Atque quas quidem, quam accusamus architecto unde corporis! Doloremque possimus velit excepturi ad.
+            </p>
+        </section>
+
+        <!---------------------------------- contact us  ---------------------------------------->
+        <form action="" class="contact">
+            <a name="CONTACT" class="title"><h1>contact us</h1></a>
+            <div class="details">
+                <div>
+                    <label>First Name:</label>
+                    <input type="text" name="first name" placeholder="your first name" />
+                </div>
+                
+                <div>
+                    <label>Last Name:</label>
+                    <input type="text" name="last name" placeholder="your last name" />
+                </div>
+                
+                <div>
+                    <label>Birth Date:</label>
+                    <input type="date" name="birthday" />
+                </div>
+                
+                <div>
+                    <span>select your country :</span>
+                    <select>
+                        <option value="WebTrack">tunisia</option>
+                        <option value="AITrack">sousse</option>
+                        <option value="GameTrack">sfax</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">receive an email</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <h5>write your msg here</h5>
+                    <textarea name="message" cols="30" rows="5">
+                        ask us please...
+                    </textarea>
+                </div>
+
+                <input class="btn1" type="submit">
+                <input class="btn1" type="reset">
+            </div>
+        </form>
+    </div>
+    <!--------------------------------- footer ------------------------------>
+
+    <footer>
+        <span>&copy;thamer copyright .</span>
+        contact us in : 
+        <a id="fb" href="www.facebook.com" target="_blank">facebook</a>
+        <a id="ins" href="#">instagram</a>
+        <a id="lkin" href="#">linked In</a>
+    </footer>
+
+</body>
+</html>
